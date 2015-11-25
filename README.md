@@ -8,7 +8,7 @@ This repository is a collection of Plugins and sample projects for MvvmCross/Xam
 Thanks to
 =========
 
-- [Stuart Lodge][slodge] and the community for [MvvmCross][mvx]
+- [Stuart Lodge](https://twitter.com/slodge) and the community for [MvvmCross](https://github.com/MvvmCross/MvvmCross)
 - [Stephen Cleary](https://twitter.com/astevecleary) for his [AsyncEx](https://github.com/StephenCleary/AsyncEx) Plugin, of which the sample Apps make use.
 
 
