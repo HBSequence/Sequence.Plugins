@@ -10,7 +10,7 @@ Thanks to
 
 - [Stuart Lodge](https://twitter.com/slodge) and the community for [MvvmCross](https://github.com/MvvmCross/MvvmCross)
 - [Stephen Cleary](https://twitter.com/astevecleary) for his [AsyncEx](https://github.com/StephenCleary/AsyncEx) Plugin, of which the sample Apps make use.
-- [Tomasz Cielecki](https://twitter.com/cheesebaron) and Martijn van Dijk (https://twitter.com/mhvdijk) for help and advice.
+- [Tomasz Cielecki](https://twitter.com/cheesebaron) and [Martijn van Dijk](https://twitter.com/mhvdijk) for help and advice.
 
 
 Contributors 
