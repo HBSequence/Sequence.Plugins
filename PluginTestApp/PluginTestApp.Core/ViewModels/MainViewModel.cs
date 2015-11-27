@@ -24,7 +24,7 @@ namespace PluginTestApp.Core.ViewModels
                 if (_numbers == null)
                 {
                     // The IncrementalCollectionFactory returns a generic ObservableCollection. In this example, 
-                    // it returns ObservableCollection<int> but the type used could be anything you want, such as a ViewModel.
+                    // it returns ObservableCollection<NumberViewModel>. Replace this with your own ViewModel.
 
                     _numbers = _incrementalCollectionFactory.GetCollection(async (count, pageSize) =>
                     {
