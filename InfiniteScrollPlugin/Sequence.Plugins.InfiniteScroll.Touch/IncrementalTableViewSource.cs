@@ -13,7 +13,7 @@ namespace Sequence.Plugins.InfiniteScroll.Touch
 {
     public class IncrementalTableViewSource : MvxSimpleTableViewSource
     {
-        int _lastViewedPosition = 0;
+        private int _lastViewedPosition;
 
         public IncrementalTableViewSource(UITableView tableView, NSString cellIdentifier) : base(tableView, cellIdentifier)
         {
@@ -29,10 +29,10 @@ namespace Sequence.Plugins.InfiniteScroll.Touch
 
         public void CreateBinding<TSource>(MvxViewController controller, Expression<Func<TSource, object>> sourceProperty)
         {
-            controller.CreateBinding(this).To<TSource>(sourceProperty).Apply();
+            controller.CreateBinding(this).To(sourceProperty).Apply();
             LoadMoreItems();
         }
-                  
+
         protected override UITableViewCell GetOrCreateCellFor(UITableView tableView, NSIndexPath indexPath, object item)
         {
             int position = indexPath.Row;
@@ -45,7 +45,6 @@ namespace Sequence.Plugins.InfiniteScroll.Touch
 
             return base.GetOrCreateCellFor(tableView, indexPath, item);
         }
-
 
         private void LoadMoreItems()
         {

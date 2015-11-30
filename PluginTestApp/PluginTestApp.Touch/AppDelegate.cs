@@ -7,9 +7,9 @@ using UIKit;
 namespace PluginTestApp.Touch
 {
     [Register("AppDelegate")]
-    public partial class AppDelegate : MvxApplicationDelegate
+    public class AppDelegate : MvxApplicationDelegate
     {
-        UIWindow _window;
+        private UIWindow _window;
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
@@ -27,5 +27,3 @@ namespace PluginTestApp.Touch
         }
     }
 }
-
-

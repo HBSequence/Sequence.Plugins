@@ -10,7 +10,7 @@ namespace PluginTestApp.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-				
+
             RegisterAppStart<ViewModels.MainViewModel>();
         }
     }

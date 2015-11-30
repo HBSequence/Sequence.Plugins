@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Cirrious.CrossCore;
+﻿using Cirrious.CrossCore;
 using Cirrious.CrossCore.Plugins;
 
 namespace Sequence.Plugins.InfiniteScroll.Touch

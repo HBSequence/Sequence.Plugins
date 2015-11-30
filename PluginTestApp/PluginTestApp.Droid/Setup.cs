@@ -15,7 +15,7 @@ namespace PluginTestApp.Droid
         {
             return new Core.App();
         }
-		
+
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();

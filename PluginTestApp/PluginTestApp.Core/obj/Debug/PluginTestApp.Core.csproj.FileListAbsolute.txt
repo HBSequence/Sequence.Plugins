@@ -24,5 +24,3 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\o
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.pdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll.mdb

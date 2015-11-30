@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Cirrious.CrossCore.Plugins;
+﻿using Cirrious.CrossCore.Plugins;
 using Sequence.Plugins.InfiniteScroll;
 
 namespace PluginTestApp.Touch
