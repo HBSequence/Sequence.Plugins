@@ -47,8 +47,29 @@ namespace PluginTestApp.Droid
 			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::PluginTestApp.Droid.Resource.Styleable.MvxListView;
 			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxBind = global::PluginTestApp.Droid.Resource.Attribute.MvxBind;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::PluginTestApp.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxGroupItemTemplate = global::PluginTestApp.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxItemTemplate = global::PluginTestApp.Droid.Resource.Attribute.MvxItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxLang = global::PluginTestApp.Droid.Resource.Attribute.MvxLang;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxSource = global::PluginTestApp.Droid.Resource.Attribute.MvxSource;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Attribute.MvxTemplate = global::PluginTestApp.Droid.Resource.Attribute.MvxTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Id.MvvmCrossTagId = global::PluginTestApp.Droid.Resource.Id.MvvmCrossTagId;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Id.MvxBindingTagUnique = global::PluginTestApp.Droid.Resource.Id.MvxBindingTagUnique;
 			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.String.ApplicationName = global::PluginTestApp.Droid.Resource.String.ApplicationName;
 			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.String.Hello = global::PluginTestApp.Droid.Resource.String.Hello;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxBinding = global::PluginTestApp.Droid.Resource.Styleable.MvxBinding;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxBinding_MvxBind = global::PluginTestApp.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxBinding_MvxLang = global::PluginTestApp.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxControl = global::PluginTestApp.Droid.Resource.Styleable.MvxControl;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxExpandableListView = global::PluginTestApp.Droid.Resource.Styleable.MvxExpandableListView;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxImageView = global::PluginTestApp.Droid.Resource.Styleable.MvxImageView;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxImageView_MvxSource = global::PluginTestApp.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxListView = global::PluginTestApp.Droid.Resource.Styleable.MvxListView;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::Sequence.Plugins.InfiniteScroll.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::PluginTestApp.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Attribute

@@ -1,0 +1,26 @@
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.CrossCore.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.CrossCore.Touch.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.MvvmCross.Localization.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\optimized\
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.csprojResolveAssemblyReference.cache
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll.mdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.CrossCore.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.CrossCore.Touch.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\optimized\
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.csprojResolveAssemblyReference.cache
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\obj\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\bin\iPhone\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll.mdb

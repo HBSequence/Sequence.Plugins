@@ -1,0 +1,28 @@
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.Binding.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Sequence.Plugins.InfiniteScroll.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Sequence.Plugins.InfiniteScroll.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.csprojResolveAssemblyReference.cache
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.pdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll.mdb
+C:\TFS Projects\Sequence - Internal\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.Binding.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Sequence.Plugins.InfiniteScroll.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\Sequence.Plugins.InfiniteScroll.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\obj\Debug\PluginTestApp.Core.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\bin\Debug\PluginTestApp.Core.dll.mdb

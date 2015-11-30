@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <IncrementalListView
+    <Sequence.Plugins.InfiniteScroll.Droid.IncrementalListView
         android:smoothScrollbar="true"
         android:scrollingCache="false"
         android:animationCache="false"
