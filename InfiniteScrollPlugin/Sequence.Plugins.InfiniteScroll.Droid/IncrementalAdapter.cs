@@ -35,8 +35,8 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
         }
 
         private void LoadMoreItems()
-        {          
-            AsyncContext.Run(() => LoadMoreItemsAsync());
+        {
+            INotifyTaskCompletion taskCompletion = NotifyTaskCompletion.Create(LoadMoreItemsAsync());
         }
 
         public async Task LoadMoreItemsAsync()

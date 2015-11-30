@@ -40,7 +40,6 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plug
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\res\values\strings.xml
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\R.cs.flag
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\uploadflags.txt
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb

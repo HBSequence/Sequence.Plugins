@@ -7,10 +7,9 @@ using Cirrious.MvvmCross.Binding.Touch.Views;
 using Cirrious.MvvmCross.Touch.Views;
 using Foundation;
 using Nito.AsyncEx;
-using Sequence.Plugins.InfiniteScroll;
 using UIKit;
 
-namespace PluginTestApp.Touch
+namespace Sequence.Plugins.InfiniteScroll.Touch
 {
     public class IncrementalTableViewSource : MvxSimpleTableViewSource
     {
@@ -50,7 +49,7 @@ namespace PluginTestApp.Touch
 
         private void LoadMoreItems()
         {
-            AsyncContext.Run(() => LoadMoreItemsAsync());
+            INotifyTaskCompletion taskCompletion = NotifyTaskCompletion.Create(LoadMoreItemsAsync());
         }
 
         public async Task LoadMoreItemsAsync()

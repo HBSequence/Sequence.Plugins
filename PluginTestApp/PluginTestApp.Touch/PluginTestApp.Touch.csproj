@@ -92,7 +92,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DebugTrace.cs" />
-    <Compile Include="IncrementalTableViewSource.cs" />
     <Compile Include="InfiniteScrollPluginBootstrap.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />

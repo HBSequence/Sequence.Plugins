@@ -9,7 +9,7 @@ namespace PluginTestApp.Core.ViewModels
         : MvxViewModel
     {
         private readonly IIncrementalCollectionFactory _incrementalCollectionFactory;
-        private readonly int _numberListPageSize = 50;
+        private readonly int _numberListPageSize = 30;
         private ObservableCollection<NumberViewModel> _numbers;
 
         public MainViewModel(IIncrementalCollectionFactory incrementalCollectionFactory)

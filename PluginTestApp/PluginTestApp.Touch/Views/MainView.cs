@@ -4,6 +4,7 @@ using CoreGraphics;
 using Foundation;
 using ObjCRuntime;
 using PluginTestApp.Core.ViewModels;
+using Sequence.Plugins.InfiniteScroll.Touch;
 using UIKit;
 
 namespace PluginTestApp.Touch.Views
@@ -21,7 +22,7 @@ namespace PluginTestApp.Touch.Views
             IncrementalTableViewSource source = new IncrementalTableViewSource(TableView1, ItemEntries.Key);
             source.CreateBinding<MainViewModel>(this, vm => vm.Numbers);
 
-            TableView1.RowHeight = 300;
+            TableView1.RowHeight = 50;
             TableView1.Source = source;
         }
     }

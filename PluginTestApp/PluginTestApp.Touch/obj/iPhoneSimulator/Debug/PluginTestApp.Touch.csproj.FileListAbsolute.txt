@@ -45,11 +45,8 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.dll
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.Touch.pdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.Touch.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.pdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\PluginTestApp.Core.pdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\PluginTestApp.Core.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Nito.AsyncEx.xml
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Nito.AsyncEx.Concurrent.xml
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\Nito.AsyncEx.Enlightenment.xml
@@ -57,5 +54,9 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\PluginTestApp.Touch.csprojResolveAssemblyReference.cache
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\PluginTestAppTouch.exe
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\PluginTestAppTouch.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\ibtool\ItemEntries.nib
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\ibtool\LaunchScreen.nib
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\ibtool\MainView.nib
+C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\obj\iPhoneSimulator\Debug\PluginTestAppTouch.exe.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Touch\bin\iPhoneSimulator\Debug\PluginTestAppTouch.exe.mdb
