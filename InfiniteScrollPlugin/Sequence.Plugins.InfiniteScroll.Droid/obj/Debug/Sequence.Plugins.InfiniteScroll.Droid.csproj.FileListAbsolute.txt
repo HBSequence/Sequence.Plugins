@@ -42,5 +42,3 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plug
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\uploadflags.txt
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\obj\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb

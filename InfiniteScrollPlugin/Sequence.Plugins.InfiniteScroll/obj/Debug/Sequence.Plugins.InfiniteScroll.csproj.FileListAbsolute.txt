@@ -12,5 +12,8 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plug
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\obj\Debug\Sequence.Plugins.InfiniteScroll.dll
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\obj\Debug\Sequence.Plugins.InfiniteScroll.pdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\obj\Debug\Sequence.Plugins.InfiniteScroll.csprojResolveAssemblyReference.cache
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\obj\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
+C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\obj\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb

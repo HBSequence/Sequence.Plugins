@@ -70,8 +70,5 @@ C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\obj\Debug\res\drawable\splash.png
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\obj\Debug\R.cs.flag
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\obj\Debug\uploadflags.txt
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\bin\Debug\Sequence.Plugins.InfiniteScroll.dll.mdb
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\bin\Debug\PluginTestApp.Core.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\obj\Debug\PluginTestApp.Droid.dll.mdb
 C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Droid\bin\Debug\PluginTestApp.Droid.dll.mdb
