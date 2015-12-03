@@ -9,7 +9,7 @@ Thanks to
 =========
 
 - [Stuart Lodge](https://twitter.com/slodge) and the community for [MvvmCross](https://github.com/MvvmCross/MvvmCross)
-- [Stephen Cleary](https://twitter.com/astevecleary) for his [AsyncEx](https://github.com/StephenCleary/AsyncEx) Plugin, of which the sample Apps make use.
+- [Stephen Cleary](https://twitter.com/astevecleary) for his [AsyncEx](https://github.com/StephenCleary/AsyncEx) Plugin.
 - [Tomasz Cielecki](https://twitter.com/cheesebaron) and [Martijn van Dijk](https://twitter.com/mhvdijk) for help and advice.
 
 
@@ -23,7 +23,7 @@ Major contributors will be listed below.
 Documentation
 =============
 
-For the moment look at the samples.
+More detail about the concept can be found [here](http://www.sequence.co.uk/blog/infinite-scrolling-using-mvvmcross-and-xamarin). Also, please look at the samples.
 
 License
 =======
