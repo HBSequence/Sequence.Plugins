@@ -1,6 +1,0 @@
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\Sequence.Plugins.InfiniteScroll.WindowsUWP.csproj;neutral
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\Sequence.Plugins.InfiniteScroll.csproj;neutral
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\Sequence.Plugins.InfiniteScroll.csproj;neutral
-C:\Users\Howard\Source\Repos\Sequence.Plugins\InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\Sequence.Plugins.InfiniteScroll.csproj;neutral
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Core\PluginTestApp.Core.csproj;neutral
-C:\Users\Howard\Source\Repos\Sequence.Plugins\PluginTestApp\PluginTestApp.Win10\PluginTestApp.Win10.csproj;x86
