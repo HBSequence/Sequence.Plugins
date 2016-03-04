@@ -68,8 +68,8 @@
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\MonoAndroid10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
 
 		<!--Xamarin.iOS-->
-		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\Release\Sequence.Plugins.InfiniteScroll.iOS.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll" />
-		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\Release\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\iPhone\Release\Sequence.Plugins.InfiniteScroll.iOS.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\iPhone\Release\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
 
