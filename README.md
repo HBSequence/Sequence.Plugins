@@ -5,6 +5,10 @@ This repository is a collection of Plugins and sample projects for MvvmCross/Xam
 
 - **InfiniteScrollPlugin** - A Plugin which facilitates forward-only incremental scrolling for a paged data source.
 
+Nuget
+=========
+[Infinite Scroll Plugin](https://www.nuget.org/packages/Sequence.Plugins.InfiniteScroll/)
+
 Thanks to
 =========
 
