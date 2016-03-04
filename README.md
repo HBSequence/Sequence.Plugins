@@ -18,6 +18,7 @@ Contributors
 Major contributors will be listed below.
 
 - [Howard Bayliss](http://www.sequence.co.uk/blog/authors/howard-bayliss/)
+- [Marco Bellino](https://github.com/IlSocio/)
 
 
 Documentation
