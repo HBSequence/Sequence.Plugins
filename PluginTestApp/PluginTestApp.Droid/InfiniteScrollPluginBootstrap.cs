@@ -1,5 +1,5 @@
-﻿using Cirrious.CrossCore.Plugins;
-using Sequence.Plugins.InfiniteScroll;
+﻿using Sequence.Plugins.InfiniteScroll;
+using MvvmCross.Platform.Plugins;
 
 namespace PluginTestApp.Droid
 {

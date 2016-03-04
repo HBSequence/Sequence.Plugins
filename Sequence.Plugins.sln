@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24627.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginTestApp", "PluginTestApp", "{71976E92-9F30-4999-BA58-E668642BBC43}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTestApp.Core", "Plugi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTestApp.Droid", "PluginTestApp\PluginTestApp.Droid\PluginTestApp.Droid.csproj", "{309C9603-7FC3-458D-B676-4EFB6E127FFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTestApp.Touch", "PluginTestApp\PluginTestApp.Touch\PluginTestApp.Touch.csproj", "{1FEB6C36-72EF-4153-8F09-8CAB202CD5EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTestApp.iOS", "PluginTestApp\PluginTestApp.iOS\PluginTestApp.iOS.csproj", "{1FEB6C36-72EF-4153-8F09-8CAB202CD5EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfiniteScrollPlugin", "InfiniteScrollPlugin", "{2842AE64-9422-4FEA-9FCB-3EEB17EF8BA9}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence.Plugins.InfiniteSc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence.Plugins.InfiniteScroll.Droid", "InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\Sequence.Plugins.InfiniteScroll.Droid.csproj", "{E6DE867D-3573-4AD7-BAD4-04FF4AB89FD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence.Plugins.InfiniteScroll.Touch", "InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Touch\Sequence.Plugins.InfiniteScroll.Touch.csproj", "{75DBED6E-67B8-4207-9C66-28FFF59D827F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequence.Plugins.InfiniteScroll.iOS", "InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\Sequence.Plugins.InfiniteScroll.iOS.csproj", "{75DBED6E-67B8-4207-9C66-28FFF59D827F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4699A8D1-E3AA-4E1E-9297-AF6C395FBCA6}"
 	ProjectSection(SolutionItems) = preProject
@@ -477,43 +477,5 @@ Global
 		{C0CFC4E0-EFE7-4C2C-89CD-E24E61A527F4} = {2842AE64-9422-4FEA-9FCB-3EEB17EF8BA9}
 		{E6DE867D-3573-4AD7-BAD4-04FF4AB89FD5} = {2842AE64-9422-4FEA-9FCB-3EEB17EF8BA9}
 		{75DBED6E-67B8-4207-9C66-28FFF59D827F} = {2842AE64-9422-4FEA-9FCB-3EEB17EF8BA9}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = 
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = PluginTestApp\\PluginTestApp.Win10\\PluginTestApp.Win10.csproj
-		SccProjectTopLevelParentUniqueName1 = Sequence.Plugins.sln
-		SccProjectName1 = PluginTestApp/PluginTestApp.Win10
-		SccLocalPath1 = PluginTestApp\\PluginTestApp.Win10
-		SccProjectUniqueName2 = PluginTestApp\\PluginTestApp.Core\\PluginTestApp.Core.csproj
-		SccProjectTopLevelParentUniqueName2 = Sequence.Plugins.sln
-		SccProjectName2 = PluginTestApp/PluginTestApp.Core
-		SccLocalPath2 = PluginTestApp\\PluginTestApp.Core
-		SccProjectUniqueName3 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll\\Sequence.Plugins.InfiniteScroll.csproj
-		SccProjectTopLevelParentUniqueName3 = Sequence.Plugins.sln
-		SccProjectName3 = InfiniteScrollPlugin/Sequence.Plugins.InfiniteScroll
-		SccLocalPath3 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll
-		SccProjectUniqueName4 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.WindowsUWP\\Sequence.Plugins.InfiniteScroll.WindowsUWP.csproj
-		SccProjectTopLevelParentUniqueName4 = Sequence.Plugins.sln
-		SccProjectName4 = InfiniteScrollPlugin/Sequence.Plugins.InfiniteScroll.WindowsUWP
-		SccLocalPath4 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.WindowsUWP
-		SccProjectUniqueName5 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.Droid\\Sequence.Plugins.InfiniteScroll.Droid.csproj
-		SccProjectTopLevelParentUniqueName5 = Sequence.Plugins.sln
-		SccProjectName5 = InfiniteScrollPlugin/Sequence.Plugins.InfiniteScroll.Droid
-		SccLocalPath5 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.Droid
-		SccProjectUniqueName6 = PluginTestApp\\PluginTestApp.Droid\\PluginTestApp.Droid.csproj
-		SccProjectTopLevelParentUniqueName6 = Sequence.Plugins.sln
-		SccProjectName6 = PluginTestApp/PluginTestApp.Droid
-		SccLocalPath6 = PluginTestApp\\PluginTestApp.Droid
-		SccProjectUniqueName7 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.Touch\\Sequence.Plugins.InfiniteScroll.Touch.csproj
-		SccProjectTopLevelParentUniqueName7 = Sequence.Plugins.sln
-		SccProjectName7 = InfiniteScrollPlugin/Sequence.Plugins.InfiniteScroll.Touch
-		SccLocalPath7 = InfiniteScrollPlugin\\Sequence.Plugins.InfiniteScroll.Touch
-		SccProjectUniqueName8 = PluginTestApp\\PluginTestApp.Touch\\PluginTestApp.Touch.csproj
-		SccProjectTopLevelParentUniqueName8 = Sequence.Plugins.sln
-		SccProjectName8 = PluginTestApp/PluginTestApp.Touch
-		SccLocalPath8 = PluginTestApp\\PluginTestApp.Touch
 	EndGlobalSection
 EndGlobal

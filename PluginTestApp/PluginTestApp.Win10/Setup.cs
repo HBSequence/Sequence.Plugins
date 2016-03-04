@@ -1,7 +1,7 @@
 using Windows.UI.Xaml.Controls;
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.ViewModels;
-using Cirrious.MvvmCross.WindowsUWP.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Platform;
+using MvvmCross.WindowsUWP.Platform;
 
 namespace PluginTestApp.Win10
 {

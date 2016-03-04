@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Sequence.Plugins.InfiniteScroll</id>
+		<version>1.0.0</version>
+		<title>InfiniteScroll Plugin for Xamarin and Windows</title>
+		<authors>Sequence</authors>
+		<owners>Sequence</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+        A Plugin which facilitates forward-only incremental scrolling for a paged data source
+		</description>
+		<summary>InfiniteScroll for lists</summary>
+		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+				<dependency id="MvvmCross.Core" version="4.0.0" />
+				<dependency id="MvvmCross.Binding" version="4.0.0" />
+				<dependency id="Nito.AsyncEx" version="3.0.1" />
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+				<dependency id="MvvmCross.Core" version="4.0.0" />
+				<dependency id="MvvmCross.Binding" version="4.0.0" />
+				<dependency id="Nito.AsyncEx" version="3.0.1" />
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+			</group>
+			<group targetFramework="uap">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+				<dependency id="MvvmCross.Core" version="4.0.0" />
+				<dependency id="MvvmCross.Binding" version="4.0.0" />
+			</group>
+			<group targetFramework="dotnet">
+				<dependency id="MvvmCross.Platform" version="4.0.0" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Sequence.Plugins.InfiniteScroll.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
+
+		<!--dotnet-->
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\dotnet\Sequence.Plugins.InfiniteScroll.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\dotnet\Sequence.Plugins.InfiniteScroll.dll.mdb" />
+		
+		<!--Xamarin.Android-->
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Release\Sequence.Plugins.InfiniteScroll.Droid.dll" target="lib\MonoAndroid10\Sequence.Plugins.InfiniteScroll.Droid.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.Droid\bin\Release\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb" target="lib\MonoAndroid10\Sequence.Plugins.InfiniteScroll.Droid.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\MonoAndroid10\Sequence.Plugins.InfiniteScroll.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\MonoAndroid10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\Release\Sequence.Plugins.InfiniteScroll.iOS.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\Release\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
+
+		<!--uap-->
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll.mdb" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.dll" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Properties\Sequence.Plugins.InfiniteScroll.WindowsUWP.rd.xml" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP\Properties" />
+
+	</files>
+</package>

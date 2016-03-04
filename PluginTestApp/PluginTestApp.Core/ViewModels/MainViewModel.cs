@@ -1,7 +1,7 @@
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.ViewModels;
 using Sequence.Plugins.InfiniteScroll;
+using MvvmCross.Core.ViewModels;
 
 namespace PluginTestApp.Core.ViewModels
 {

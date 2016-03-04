@@ -1,4 +1,4 @@
-﻿using Cirrious.CrossCore.Plugins;
+﻿using MvvmCross.Platform.Plugins;
 using Sequence.Plugins.InfiniteScroll;
 
 namespace PluginTestApp.Win10
