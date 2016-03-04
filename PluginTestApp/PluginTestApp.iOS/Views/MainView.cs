@@ -1,8 +1,8 @@
-using Cirrious.MvvmCross.Touch.Views;
 using PluginTestApp.Core.ViewModels;
-using Sequence.Plugins.InfiniteScroll.Touch;
+using Sequence.Plugins.InfiniteScroll.iOS;
+using MvvmCross.iOS.Views;
 
-namespace PluginTestApp.Touch.Views
+namespace PluginTestApp.iOS.Views
 {
     public partial class MainView : MvxViewController
     {
