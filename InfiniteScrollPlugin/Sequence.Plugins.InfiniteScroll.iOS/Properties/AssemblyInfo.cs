@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Sequence.Plugins.InfiniteScroll.Touch")]
+[assembly: AssemblyTitle("Sequence.Plugins.InfiniteScroll.iOS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Sequence.Plugins.InfiniteScroll.Touch")]
+[assembly: AssemblyProduct("Sequence.Plugins.InfiniteScroll.iOS")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

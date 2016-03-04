@@ -6,7 +6,7 @@
     <ProjectGuid>{75DBED6E-67B8-4207-9C66-28FFF59D827F}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sequence.Plugins.InfiniteScroll.Touch</RootNamespace>
+    <RootNamespace>Sequence.Plugins.InfiniteScroll.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Sequence.Plugins.InfiniteScroll.iOS</AssemblyName>
     <SccProjectName>SAK</SccProjectName>

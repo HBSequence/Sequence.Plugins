@@ -1,7 +1,7 @@
-﻿using MvvmCross.Platform.Plugins;
-using MvvmCross.Platform;
+﻿using MvvmCross.Platform;
+using MvvmCross.Platform.Plugins;
 
-namespace Sequence.Plugins.InfiniteScroll.Touch
+namespace Sequence.Plugins.InfiniteScroll.iOS
 {
     public class Plugin
         : IMvxPlugin
