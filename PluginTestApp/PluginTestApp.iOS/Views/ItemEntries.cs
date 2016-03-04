@@ -1,11 +1,11 @@
 ﻿using System;
-using Cirrious.MvvmCross.Binding.BindingContext;
-using Cirrious.MvvmCross.Binding.Touch.Views;
 using Foundation;
 using PluginTestApp.Core.ViewModels;
 using UIKit;
+using MvvmCross.Binding.iOS.Views;
+using MvvmCross.Binding.BindingContext;
 
-namespace PluginTestApp.Touch.Views
+namespace PluginTestApp.iOS.Views
 {
     public partial class ItemEntries : MvxTableViewCell
     {

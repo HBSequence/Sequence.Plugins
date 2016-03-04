@@ -7,7 +7,7 @@
 
 using Foundation;
 
-namespace PluginTestApp.Touch.Views
+namespace PluginTestApp.iOS.Views
 {
 	[Register ("MainView")]
 	partial class MainView

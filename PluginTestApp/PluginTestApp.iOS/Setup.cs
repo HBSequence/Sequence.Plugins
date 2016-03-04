@@ -1,19 +1,19 @@
-using Cirrious.CrossCore.Platform;
-using Cirrious.MvvmCross.Touch.Platform;
-using Cirrious.MvvmCross.Touch.Views.Presenters;
-using Cirrious.MvvmCross.ViewModels;
 using UIKit;
+using MvvmCross.iOS.Platform;
+using MvvmCross.iOS.Views.Presenters;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform.Platform;
 
-namespace PluginTestApp.Touch
+namespace PluginTestApp.iOS
 {
-    public class Setup : MvxTouchSetup
+    public class Setup : MvxIosSetup
     {
         public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
             : base(applicationDelegate, window)
         {
         }
 
-        public Setup(MvxApplicationDelegate applicationDelegate, IMvxTouchViewPresenter presenter)
+        public Setup(MvxApplicationDelegate applicationDelegate, IMvxIosViewPresenter presenter)
             : base(applicationDelegate, presenter)
         {
         }

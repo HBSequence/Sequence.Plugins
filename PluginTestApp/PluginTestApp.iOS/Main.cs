@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace PluginTestApp.Touch
+namespace PluginTestApp.iOS
 {
     public class Application
     {

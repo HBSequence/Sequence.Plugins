@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Sequence.Plugins.InfiniteScroll.Touch</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Sequence.Plugins.InfiniteScroll.Touch</AssemblyName>
+    <AssemblyName>Sequence.Plugins.InfiniteScroll.iOS</AssemblyName>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>

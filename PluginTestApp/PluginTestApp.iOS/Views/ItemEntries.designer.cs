@@ -7,7 +7,7 @@
 
 using Foundation;
 
-namespace PluginTestApp.Touch.Views
+namespace PluginTestApp.iOS.Views
 {
 	[Register ("ItemEntries")]
 	partial class ItemEntries
