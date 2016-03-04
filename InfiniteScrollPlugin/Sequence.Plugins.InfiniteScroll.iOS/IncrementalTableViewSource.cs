@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Binding.BindingContext;
-using Cirrious.MvvmCross.Binding.ExtensionMethods;
-using Cirrious.MvvmCross.Binding.Touch.Views;
-using Cirrious.MvvmCross.Touch.Views;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.ExtensionMethods;
+using MvvmCross.Binding.iOS.Views;
+using MvvmCross.iOS.Views;
 using Foundation;
 using Nito.AsyncEx;
 using UIKit;
 
-namespace Sequence.Plugins.InfiniteScroll.Touch
+namespace Sequence.Plugins.InfiniteScroll.iOS
 {
     public class IncrementalTableViewSource : MvxSimpleTableViewSource
     {

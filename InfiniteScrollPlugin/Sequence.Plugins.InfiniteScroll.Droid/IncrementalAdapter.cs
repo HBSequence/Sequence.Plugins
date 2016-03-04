@@ -2,7 +2,7 @@ using System.Collections;
 using System.Threading.Tasks;
 using Android.Content;
 using Android.Views;
-using Cirrious.MvvmCross.Binding.Droid.Views;
+using MvvmCross.Binding.Droid.Views;
 using Nito.AsyncEx;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid

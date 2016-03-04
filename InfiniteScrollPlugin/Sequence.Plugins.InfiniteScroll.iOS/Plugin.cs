@@ -1,5 +1,5 @@
-﻿using Cirrious.CrossCore;
-using Cirrious.CrossCore.Plugins;
+﻿using MvvmCross.Platform.Plugins;
+using MvvmCross.Platform;
 
 namespace Sequence.Plugins.InfiniteScroll.Touch
 {
