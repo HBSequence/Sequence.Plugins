@@ -69,16 +69,15 @@
 
 		<!--Xamarin.iOS-->
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\iPhone\Release\Sequence.Plugins.InfiniteScroll.iOS.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll" />
-		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.iOS\bin\iPhone\Release\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.iOS.dll.mdb" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\Xamarin.iOS10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
 
 		<!--uap-->
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll" />
-		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll.mdb" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP.dll.mdb" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Sequence.Plugins.InfiniteScroll.WindowsUWP.pdb" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP.pdb" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.dll" />
 		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll\bin\Release\Sequence.Plugins.InfiniteScroll.dll.mdb" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.dll.mdb" />
-		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\bin\Release\Properties\Sequence.Plugins.InfiniteScroll.WindowsUWP.rd.xml" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP\Properties" />
+		<file src="InfiniteScrollPlugin\Sequence.Plugins.InfiniteScroll.WindowsUWP\Properties\Sequence.Plugins.InfiniteScroll.Win10.rd.xml" target="lib\UAP10\Sequence.Plugins.InfiniteScroll.WindowsUWP\Properties" />
 
 	</files>
 </package>
