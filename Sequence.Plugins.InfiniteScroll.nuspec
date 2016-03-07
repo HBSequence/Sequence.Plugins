@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
 		<id>Sequence.Plugins.InfiniteScroll</id>
-		<version>1.0.0</version>
-		<title>Infinite Scroll Plugin (Incremental Scrolling) for Xamarin and Windows (UWP)</title>
+		<version>1.0.1</version>
+		<title>Infinite Scroll Plugin for Xamarin and Windows</title>
 		<authors>Sequence Agency Ltd</authors>
 		<owners>Sequence Agency Ltd</owners>
 		<licenseUrl>https://github.com/HBSequence/Sequence.Plugins/blob/master/README.md</licenseUrl>
@@ -14,7 +14,7 @@
         A Plugin which facilitates (currently forward-only) incremental scrolling for a paged data source
 		</description>
 		<summary>Infinite Scroll (Incremental Scrolling) for lists</summary>
-		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, uwp, android, xamarin.forms, ios</tags>
+		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, uwp, android, xamarin.forms, ios, incremental, scroll, scrolling, infinite</tags>
 		<dependencies>
 			<group targetFramework="net">
 				<dependency id="MvvmCross.Platform" version="4.0.0" />
