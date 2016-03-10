@@ -19,7 +19,7 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            if ((position >= _maxPositionReached) && (position == _lastCount))
+            if ((position >= _maxPositionReached) && (position >= _lastCount))
             {
                 _maxPositionReached = position;
                 LoadMoreItems();
@@ -31,6 +31,8 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
         protected override void SetItemsSource(IEnumerable value)
         {
             base.SetItemsSource(value);
+            _lastCount = 0;
+            _maxPositionReached = 0;
             LoadMoreItems();
         }
 
