@@ -4,13 +4,13 @@ using Android.Content;
 using Android.Views;
 using MvvmCross.Binding.Droid.Views;
 using Nito.AsyncEx;
+using MvvmCross.Binding.ExtensionMethods;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid
 {
     public class IncrementalAdapter : MvxAdapter
     {
-        private int _lastCount;
-        private int _maxPositionReached;
+        private int _lastViewedPosition = 0;
 
         public IncrementalAdapter(Context context)
             : base(context)
@@ -19,9 +19,9 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            if ((position >= _maxPositionReached) && (position >= _lastCount))
+            if ((position > _lastViewedPosition) && (position >= (ItemsSource.Count() - 1)))
             {
-                _maxPositionReached = position;
+                _lastViewedPosition = position;
                 LoadMoreItems();
             }
 
@@ -31,8 +31,7 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
         protected override void SetItemsSource(IEnumerable value)
         {
             base.SetItemsSource(value);
-            _lastCount = 0;
-            _maxPositionReached = 0;
+            _lastViewedPosition = 0;
             LoadMoreItems();
         }
 
@@ -47,7 +46,6 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
 
             if (source != null)
             {
-                _lastCount = Count;
                 await source.LoadMoreItemsAsync();
             }
         }
