@@ -44,14 +44,6 @@ namespace Sequence.Plugins.InfiniteScroll.iOS
             }
         }
 
-        /*
-        public void CreateBinding<TSource>(MvxViewController controller, Expression<Func<TSource, object>> sourceProperty)
-        {
-            controller.CreateBinding(this).To(sourceProperty).Apply();
-            _lastViewedPosition = 0;
-            LoadMoreItems();
-        }*/
-
         protected override UITableViewCell GetOrCreateCellFor(UITableView tableView, NSIndexPath indexPath, object item)
         {
             int position = indexPath.Row;

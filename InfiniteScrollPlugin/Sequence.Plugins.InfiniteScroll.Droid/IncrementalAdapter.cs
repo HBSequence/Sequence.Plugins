@@ -5,6 +5,7 @@ using Android.Views;
 using MvvmCross.Binding.Droid.Views;
 using Nito.AsyncEx;
 using MvvmCross.Binding.ExtensionMethods;
+using MvvmCross.Binding.Attributes;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid
 {
@@ -28,11 +29,18 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
             return base.GetView(position, convertView, parent);
         }
 
-        protected override void SetItemsSource(IEnumerable value)
+        [MvxSetToNullAfterBinding]
+        public override IEnumerable ItemsSource
         {
-            base.SetItemsSource(value);
-            _lastViewedPosition = 0;
-            LoadMoreItems();
+            get { return base.ItemsSource; }
+            set
+            {
+                if (base.ItemsSource == value)
+                    return;
+                base.ItemsSource = value;
+                _lastViewedPosition = 0;
+                LoadMoreItems();
+            }
         }
 
         private void LoadMoreItems()
