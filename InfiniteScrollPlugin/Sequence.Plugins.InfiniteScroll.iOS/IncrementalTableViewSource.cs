@@ -8,18 +8,20 @@ using MvvmCross.iOS.Views;
 using Foundation;
 using Nito.AsyncEx;
 using UIKit;
+using System.Collections;
+using MvvmCross.Binding.Attributes;
 
 namespace Sequence.Plugins.InfiniteScroll.iOS
 {
     public class IncrementalTableViewSource : MvxSimpleTableViewSource
     {
-        private int _lastViewedPosition;
+        private int _lastViewedPosition = 0;
 
         public IncrementalTableViewSource(UITableView tableView, NSString cellIdentifier) : base(tableView, cellIdentifier)
         {
         }
 
-        public IncrementalTableViewSource(UITableView tableView, string bindingText) : base(tableView, bindingText)
+        public IncrementalTableViewSource(UITableView tableView, string nibName) : base(tableView, nibName)
         {
         }
 
@@ -27,18 +29,26 @@ namespace Sequence.Plugins.InfiniteScroll.iOS
         {
         }
 
-        public void CreateBinding<TSource>(MvxViewController controller, Expression<Func<TSource, object>> sourceProperty)
+
+        [MvxSetToNullAfterBinding]
+        public override IEnumerable ItemsSource
         {
-            controller.CreateBinding(this).To(sourceProperty).Apply();
-            _lastViewedPosition = 0;
-            LoadMoreItems();
+            get { return base.ItemsSource; }
+            set
+            {
+                if (base.ItemsSource == value)
+                    return;
+                base.ItemsSource = value;
+                _lastViewedPosition = 0;
+                LoadMoreItems();
+            }
         }
 
         protected override UITableViewCell GetOrCreateCellFor(UITableView tableView, NSIndexPath indexPath, object item)
         {
             int position = indexPath.Row;
 
-            if ((position > _lastViewedPosition) && (position == (ItemsSource.Count() - 1)))
+            if ((position > _lastViewedPosition) && (position >= (ItemsSource.Count() - 1)))
             {
                 _lastViewedPosition = position;
                 LoadMoreItems();

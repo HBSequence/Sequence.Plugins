@@ -4,13 +4,14 @@ using Android.Content;
 using Android.Views;
 using MvvmCross.Binding.Droid.Views;
 using Nito.AsyncEx;
+using MvvmCross.Binding.ExtensionMethods;
+using MvvmCross.Binding.Attributes;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid
 {
     public class IncrementalAdapter : MvxAdapter
     {
-        private int _lastCount;
-        private int _maxPositionReached;
+        private int _lastViewedPosition = 0;
 
         public IncrementalAdapter(Context context)
             : base(context)
@@ -19,21 +20,27 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            if ((position >= _maxPositionReached) && (position >= _lastCount))
+            if ((position > _lastViewedPosition) && (position >= (ItemsSource.Count() - 1)))
             {
-                _maxPositionReached = position;
+                _lastViewedPosition = position;
                 LoadMoreItems();
             }
 
             return base.GetView(position, convertView, parent);
         }
 
-        protected override void SetItemsSource(IEnumerable value)
+        [MvxSetToNullAfterBinding]
+        public override IEnumerable ItemsSource
         {
-            base.SetItemsSource(value);
-            _lastCount = 0;
-            _maxPositionReached = 0;
-            LoadMoreItems();
+            get { return base.ItemsSource; }
+            set
+            {
+                if (base.ItemsSource == value)
+                    return;
+                base.ItemsSource = value;
+                _lastViewedPosition = 0;
+                LoadMoreItems();
+            }
         }
 
         private void LoadMoreItems()
@@ -47,7 +54,6 @@ namespace Sequence.Plugins.InfiniteScroll.Droid
 
             if (source != null)
             {
-                _lastCount = Count;
                 await source.LoadMoreItemsAsync();
             }
         }

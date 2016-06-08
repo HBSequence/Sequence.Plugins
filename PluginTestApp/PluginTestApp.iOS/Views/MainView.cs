@@ -1,6 +1,7 @@
 using PluginTestApp.Core.ViewModels;
 using Sequence.Plugins.InfiniteScroll.iOS;
 using MvvmCross.iOS.Views;
+using MvvmCross.Binding.BindingContext;
 
 namespace PluginTestApp.iOS.Views
 {
@@ -15,7 +16,7 @@ namespace PluginTestApp.iOS.Views
             base.ViewDidLoad();
 
             IncrementalTableViewSource source = new IncrementalTableViewSource(TableView1, ItemEntries.Key);
-            source.CreateBinding<MainViewModel>(this, vm => vm.Numbers);
+            this.CreateBinding(source).To<MainViewModel>(vm => vm.Numbers).Apply();
 
             TableView1.RowHeight = 300;
             TableView1.Source = source;
