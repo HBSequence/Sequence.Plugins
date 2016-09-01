@@ -30,6 +30,7 @@ namespace Sequence.Plugins.InfiniteScroll.iOS
         public void CreateBinding<TSource>(MvxViewController controller, Expression<Func<TSource, object>> sourceProperty)
         {
             controller.CreateBinding(this).To(sourceProperty).Apply();
+            _lastViewedPosition = 0;
             LoadMoreItems();
         }
 
