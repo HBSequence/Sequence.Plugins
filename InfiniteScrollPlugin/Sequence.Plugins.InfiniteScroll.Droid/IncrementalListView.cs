@@ -2,7 +2,7 @@ using System;
 using Android.Content;
 using Android.Runtime;
 using Android.Util;
-using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Platforms.Android.Binding.Views;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid
 {

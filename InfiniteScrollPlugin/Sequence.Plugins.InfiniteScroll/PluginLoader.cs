@@ -1,16 +1,18 @@
-﻿using MvvmCross.Platform.Plugins;
-using MvvmCross.Platform;
+﻿using MvvmCross;
+using MvvmCross.Plugin;
+using Sequence.Plugins.InfiniteScroll.Shared;
 
 namespace Sequence.Plugins.InfiniteScroll
 {
-    public class PluginLoader : IMvxPluginLoader
+    [MvxPlugin]
+    public class PluginLoader : IMvxPlugin
     {
         public static readonly PluginLoader Instance = new PluginLoader();
 
-        public void EnsureLoaded()
+
+        public void Load()
         {
-            var manager = Mvx.Resolve<IMvxPluginManager>();
-            manager.EnsurePlatformAdaptionLoaded<PluginLoader>();
+            Mvx.RegisterSingleton<IIncrementalCollectionFactory>(new IncrementalCollectionFactory());
         }
     }
 }

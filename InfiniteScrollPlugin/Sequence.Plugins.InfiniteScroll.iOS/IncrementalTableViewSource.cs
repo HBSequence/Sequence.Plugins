@@ -2,10 +2,10 @@
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.Binding.ExtensionMethods;
-using MvvmCross.Binding.iOS.Views;
-using MvvmCross.iOS.Views;
 using Foundation;
+using MvvmCross.Binding.Extensions;
+using MvvmCross.Platforms.Ios.Binding.Views;
+using MvvmCross.Platforms.Ios.Views;
 using Nito.AsyncEx;
 using UIKit;
 
