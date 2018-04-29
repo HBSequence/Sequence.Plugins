@@ -2,8 +2,8 @@
 using Foundation;
 using PluginTestApp.Core.ViewModels;
 using UIKit;
-using MvvmCross.Binding.iOS.Views;
 using MvvmCross.Binding.BindingContext;
+using MvvmCross.Platforms.Ios.Binding.Views;
 
 namespace PluginTestApp.iOS.Views
 {
