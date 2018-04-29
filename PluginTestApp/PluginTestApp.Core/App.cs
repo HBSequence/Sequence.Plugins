@@ -1,5 +1,6 @@
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform.IoC;
+﻿using MvvmCross.IoC;
+using MvvmCross.ViewModels;
+using PluginTestApp.Core.ViewModels;
 
 namespace PluginTestApp.Core
 {
@@ -12,7 +13,26 @@ namespace PluginTestApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.MainViewModel>();
+            RegisterAppStart<MainViewModel>();
+        }
+
+        /// <summary>
+        /// Do any UI bound startup actions here
+        /// </summary>
+        /// <param name="hint"></param>
+        public override void Startup(object hint)
+        {
+            base.Startup(hint);
+        }
+
+        /// <summary>
+        /// If the application is restarted (eg primary activity on Android 
+        /// can be restarted) this method will be called before Startup
+        /// is called again
+        /// </summary>
+        public override void Reset()
+        {
+            base.Reset();
         }
     }
 }

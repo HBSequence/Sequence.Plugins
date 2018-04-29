@@ -1,4 +1,6 @@
-﻿namespace PluginTestApp.Core.ViewModels
+﻿
+
+namespace PluginTestApp.Core.ViewModels
 {
     public class NumberViewModel
     {
