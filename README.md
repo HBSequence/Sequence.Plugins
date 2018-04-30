@@ -1,6 +1,8 @@
 Sequence.Plugins
 ==========
 
+(No longer maintained. Please make your own Fork to adapt)
+
 This repository is a collection of Plugins and sample projects for MvvmCross/Xamarin. Currently it consists of the following Plugins:
 
 - **InfiniteScrollPlugin** - A Plugin which facilitates forward-only incremental scrolling for a paged data source.
