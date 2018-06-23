@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
@@ -6,10 +7,10 @@ namespace Sequence.Plugins.InfiniteScroll.Shared
 {
     public class IncrementalCollection<T> : ObservableCollection<T>, ICoreSupportIncrementalLoading
     {
-        private readonly Func<int, int, Task<ObservableCollection<T>>> _sourceDataFunc;
+        private readonly Func<int, int, Task<IEnumerable<T>>> _sourceDataFunc;
         private int _defaultPageSize;
 
-        public IncrementalCollection(Func<int, int, Task<ObservableCollection<T>>> sourceDataFunc, int defaultPageSize)
+        public IncrementalCollection(Func<int, int, Task<IEnumerable<T>>> sourceDataFunc, int defaultPageSize)
         {
             _sourceDataFunc = sourceDataFunc;
             _defaultPageSize = defaultPageSize;
@@ -23,7 +24,7 @@ namespace Sequence.Plugins.InfiniteScroll.Shared
 
         public async Task LoadMoreItemsAsync()
         {
-            ObservableCollection<T> sourceData = await _sourceDataFunc(Count, _defaultPageSize);
+            var sourceData = await _sourceDataFunc(Count, _defaultPageSize);
 
             foreach (T dataItem in sourceData)
             {
