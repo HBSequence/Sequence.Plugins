@@ -19,10 +19,9 @@ namespace PluginTestApp.Core
         /// <summary>
         /// Do any UI bound startup actions here
         /// </summary>
-        /// <param name="hint"></param>
-        public override void Startup(object hint)
+        public override void Startup()
         {
-            base.Startup(hint);
+            base.Startup();
         }
 
         /// <summary>

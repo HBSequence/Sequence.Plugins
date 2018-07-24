@@ -2,8 +2,8 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
-    <SelectedDevice>LGE Nexus 5X</SelectedDevice>
+    <SelectedDevice>n5x_google</SelectedDevice>
     <ProjectView>ProjectFiles</ProjectView>
-    <DefaultDevice>Nexus_5_API_27</DefaultDevice>
+    <DefaultDevice>n5x_google</DefaultDevice>
   </PropertyGroup>
 </Project>
