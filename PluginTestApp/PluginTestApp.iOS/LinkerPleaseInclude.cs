@@ -1,9 +1,9 @@
 using System.Collections.Specialized;
 using System.Windows.Input;
 using Foundation;
+using MvvmCross.IoC;
+using MvvmCross.Platforms.Ios.Views;
 using UIKit;
-using MvvmCross.Platform.IoC;
-using MvvmCross.iOS.Views;
 
 namespace PluginTestApp.iOS
 {

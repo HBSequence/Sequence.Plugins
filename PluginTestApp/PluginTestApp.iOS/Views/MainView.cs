@@ -1,6 +1,6 @@
 using PluginTestApp.Core.ViewModels;
 using Sequence.Plugins.InfiniteScroll.iOS;
-using MvvmCross.iOS.Views;
+using MvvmCross.Platforms.Ios.Views;
 
 namespace PluginTestApp.iOS.Views
 {

@@ -3,7 +3,7 @@ using System.Windows.Input;
 using Android.App;
 using Android.Views;
 using Android.Widget;
-using MvvmCross.Platform.IoC;
+using MvvmCross.IoC;
 
 namespace PluginTestApp.Droid
 {

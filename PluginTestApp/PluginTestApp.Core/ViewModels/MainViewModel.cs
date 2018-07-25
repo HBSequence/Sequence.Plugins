@@ -1,12 +1,11 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using MvvmCross.ViewModels;
 using Sequence.Plugins.InfiniteScroll;
-using MvvmCross.Core.ViewModels;
 
 namespace PluginTestApp.Core.ViewModels
 {
-    public class MainViewModel
-        : MvxViewModel
+    public class MainViewModel : MvxViewModel
     {
         private readonly IIncrementalCollectionFactory _incrementalCollectionFactory;
         private readonly int _numberListPageSize = 30;

@@ -13,7 +13,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
@@ -39,9 +39,13 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Java.Interop" />
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
+    <Reference Include="MvvmCross, Version=6.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.6.1.2\lib\monoandroid81\MvvmCross.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,27 +58,6 @@
     </Reference>
     <Reference Include="Nito.AsyncEx.Enlightenment, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\packages\Nito.AsyncEx.3.0.1\lib\MonoAndroid\Nito.AsyncEx.Enlightenment.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Platform.Droid">
-      <HintPath>..\..\packages\MvvmCross.Platform.4.0.0\lib\MonoAndroid\MvvmCross.Platform.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Platform">
-      <HintPath>..\..\packages\MvvmCross.Platform.4.0.0\lib\MonoAndroid\MvvmCross.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Droid">
-      <HintPath>..\..\packages\MvvmCross.Core.4.0.0\lib\MonoAndroid\MvvmCross.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Core">
-      <HintPath>..\..\packages\MvvmCross.Core.4.0.0\lib\MonoAndroid\MvvmCross.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Binding.Droid">
-      <HintPath>..\..\packages\MvvmCross.Binding.4.0.0\lib\MonoAndroid\MvvmCross.Binding.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Binding">
-      <HintPath>..\..\packages\MvvmCross.Binding.4.0.0\lib\MonoAndroid\MvvmCross.Binding.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Localization">
-      <HintPath>..\..\packages\MvvmCross.Binding.4.0.0\lib\MonoAndroid\MvvmCross.Localization.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -93,7 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sequence.Plugins.InfiniteScroll\Sequence.Plugins.InfiniteScroll.csproj">
-      <Project>{AD9D4D83-60FD-4F62-9621-39023D5E8DB2}</Project>
+      <Project>{9d47e2fa-0d2a-4b00-88bd-79fb687c2f52}</Project>
       <Name>Sequence.Plugins.InfiniteScroll</Name>
     </ProjectReference>
   </ItemGroup>

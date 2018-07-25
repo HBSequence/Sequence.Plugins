@@ -1,10 +1,9 @@
-using MvvmCross.Platform.Plugins;
-using MvvmCross.Platform;
+using MvvmCross;
+using MvvmCross.Plugin;
 
 namespace Sequence.Plugins.InfiniteScroll.Droid
 {
-    public class Plugin
-        : IMvxPlugin
+    public class Plugin : IMvxPlugin
     {
         public void Load()
         {
